@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+/* use this stylesheet on all pages to maintain consistency */
+
+h1 {
+  font-family: 'Paprika', cursive;
+}
+
+p {
+  font-family: 'Paprika', cursive;
+}

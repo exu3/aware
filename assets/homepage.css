@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+h1 {
+  color: #D07347;
+  font-family: 'Paprika', cursive;
+}
+
+p {
+  color: #A7462D;
+  font-family: 'Paprika', cursive;
+}
+
+body {
+  background-color: #E7C4A8;
+}
+
+.button {
+  width: 300px;
+  border: 15px;
+  padding: 50px solid green;
+  margin: 20px;
+}
