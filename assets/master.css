@@ -24,3 +24,16 @@ button {
   font-family: 'Paprika', cursive;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #a7462d;
+  text-align: center;
+}
+
+.footer-text {
+  color: #A7462D;
+  font-family: 'Paprika', cursive;
+}
