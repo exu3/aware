@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    color: #E7C4A8;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #E7C4A8;
+  }
+  
+  .card {
+      background-color: #8A491F;
+      color: #E7C4A8;
+  }
