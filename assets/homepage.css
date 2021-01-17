@@ -14,7 +14,16 @@ body {
   background-color: #E7C4A8;
 }
 
-.text-center {
-  text-align: center;
-  padding: 10px;
+.intro-blurb {
+  margin: 2rem;
+}
+
+.go-button {
+  position: relative;
+  margin: auto;
+}
+
+.footer-text {
+  color: #A7462D;
+  font-family: 'Paprika', cursive;
 }
