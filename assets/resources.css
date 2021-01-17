@@ -25,17 +25,7 @@ p {
     color: #E7C4A8;
 }
 
-a {
-    text-decoration: underline;
-    color: #E7C4A8;
-}
 
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    color: #ccaa8f;
-}
-/*
 a {
   text-decoration: none;
   color: #E7C4A8;
@@ -44,7 +34,7 @@ a {
 a:hover {
   text-decoration: none;
   color: #E7C4A8;
-}*/
+}
 
 .videos {
     color: #8a491f;
