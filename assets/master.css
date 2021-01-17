@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 
-/* use this stylesheet on all pages to maintain consistency */
+/* DONT EDIT .this stylesheet is imported on all pages. DO NOT EDIT */
 
 body {
   margin: 2rem;
@@ -9,8 +9,18 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Paprika', cursive;
+  color: #D07347;
 }
 
 p {
   font-family: 'Paprika', cursive;
 }
+
+button {
+  border-radius: 20px;
+  color: #E7C4A8;
+  background-color: #8A491F;
+  padding: 8px;
+  font-family: 'Paprika', cursive;
+}
+
