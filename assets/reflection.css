@@ -1,0 +1,15 @@
+.response {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E7C4A8;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #E7C4A8; 
+}
