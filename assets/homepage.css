@@ -14,9 +14,7 @@ body {
   background-color: #E7C4A8;
 }
 
-.button {
-  width: 300px;
-  border: 15px;
-  padding: 50px solid green;
-  margin: 20px;
+.text-center {
+  text-align: center;
+  padding: 10px;
 }

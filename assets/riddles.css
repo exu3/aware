@@ -1,3 +1,7 @@
+.home {
+  margin-right: 80%;
+}
+
 a {
   text-decoration: none;
   color: #E7C4A8;
@@ -8,10 +12,7 @@ a:hover {
   color: #E7C4A8;
 }
 
-.next {
-  margin-left: 45%;
-}
-
-.home {
-  margin-right: 80%;
+.card {
+    background-color: #8A491F;
+    color: #E7C4A8;
 }
