@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sorting</title>
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="assets/sorting-screen.css">
+    <link rel="stylesheet" href="assets/master.css">
+    <!--import font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
+
+    <!-- drag and drop thing -->
+    <script>
+        function allowDrop(ev) {
+          ev.preventDefault();
+        }
+        
+        function drag(ev) {
+          ev.dataTransfer.setData("text", ev.target.id);
+        }
+        
+        function drop(ev) {
+          ev.preventDefault();
+          var data = ev.dataTransfer.getData("text");
+          ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+
+  </head> 
+  
+  <body>
+
+    <button class="home">
+        <a href="sorting-screen.html">previous activity</a>
+      </button>
+
+    <h1 class="text-center">Sorting</h1>
+    
+    <div class="card" style="width: 100%;">
+      <div class="card-body">
+        
+        <div class="row">
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">wages</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">man</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">woman</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">girl</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">boy</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">engineer</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">finance</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">laundry</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">baking</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">cooking</p>
+            </div>
+        </div>
+          
+
+    </div></div><br><br> <!-- close card div -->
+
+    <div class="destination">
+        <div class="row">
+            <div class="col-6">
+                <h4 class="text-center">female or work</h4>
+                <div id="destination" ondrop="drop(event)" ondragover="allowDrop(event)">place cards into this box!</div>
+            </div>
+            <div class="col-6" style="align-items: center;">
+                <h4 class="text-center">male or household</h4>
+                <div id="destination" ondrop="drop(event)" ondragover="allowDrop(event)">place cards into this box!</div>
+            </div>
+        </div>
+        
+
+    </div><br><br>
+
+    
+
+
+    <div class="footer">
+       <button><a href="reflection.html" style="text-decoration: none; color: #E7C4A8;">Reflection >></a></button>
+      <hr>
+      <p class="footer-text">Made with ❤ by Katie and Ella</p>
+      <p>See the source code <a href="https://github.com/eilla1/stereotype-awareness" style="text-decoration: underline; color: #A7462D;">here</a>.</p>
+    </div>
+ 
+  </body>
+</html>
