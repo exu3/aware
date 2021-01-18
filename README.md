@@ -22,3 +22,5 @@ Through the process of creating our website, we gained new insights into the cod
 
 ## What's next for Aware
 Some things we could add to our project are more activities and a greater selection of articles and videos, as well as possibly a community forum for people to talk about their personal experiences. And although it’ll be a while before everyone is treated perfectly equally, we’re hopeful that projects like this will help people be more aware of their own biases-- and work to overcome them. 
+
+*Submitted to Theta Hacks on January 17, 2021*
