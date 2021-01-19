@@ -21,6 +21,6 @@ We managed our time wisely and were able to make consistent progress throughout 
 Through the process of creating our website, we gained new insights into the coding languages we used. Additionally, reading the articles and watching the videos featured in our project was an interesting way to learn more about bias and stereotyping.
 
 ## What's next for Aware
-Some things we could add to our project are more activities and a greater selection of articles and videos, as well as possibly a community forum for people to talk about their personal experiences. And although it’ll be a while before everyone is treated perfectly equally, we’re hopeful that projects like this will help people be more aware of their own biases-- and work to overcome them. 
+Some things we could add to our project are more activities and a greater selection of articles and videos, as well as possibly a community forum for people to talk about their personal experiences. We could also work on making the website more repsonsive and mobile friendly. And although it’ll be a while before everyone is treated perfectly equally, we’re hopeful that projects like this will help people be more aware of their own biases-- and work to overcome them. 
 
 *Submitted to Theta Hacks on January 17, 2021*
